@@ -259,7 +259,81 @@ class Solution(object):
         return ms
 
     def problem_15(self):
-        
+        tri = [[1],[1,1]]
+        while len(tri)<21:
+            new_line = []
+            for i in range(len(tri[-1])-1):
+                new_line.append(tri[-1][i]+tri[-1][i+1])
+            tri.append([1]+new_line+[1])
+
+        print(tri)
+        return sum([x**2 for x in tri[-1]])
+
+    def problem_16(self):
+        return sum([int(x) for x in str(2**1000)])
+
+    def problem_17(self):
+        letters = [0]*1001
+        result = [0] * 1001
+        buffer = ''
+        with open('problem_17.txt','r') as f:
+            s = f.readline()
+            while not s == '' :
+                buffer += s
+                s = f.readline()
+        buffer = buffer.replace('\n', ' ')
+        buffer = buffer.split(' ')
+        buffer = [x for x in buffer if x != '']
+        for i in range(0,len(buffer)-1,2):
+            letters[int(buffer[i])] = len(buffer[i+1])
+        for i in range(1,len(result)):
+            s = int(i%10)
+            t = int(i/10)%10
+            h = int(i/100)%10
+            if t>=2:
+                result[i] = letters[h]+letters[t*10]+letters[s]
+            if t<2:
+                result[i] = letters[h]+letters[i%100]
+            if i%100 != 0 and i > 100:
+                result[i] += 3 +letters[100]
+            if 1000>i > 100 and i%100 ==0:
+                result[i] += letters[100]
+            # 1000 and 100 is not include
+        return sum(result)+letters[1]+letters[1000]+letters[100]
+
+    def problem_18(self):
+        tri = []
+        with open('problem_18.txt','r') as f:
+            s= f.readline()
+            while s:
+                tri.append(s.replace('\n','').split(' '))
+                s = f.readline()
+        while not len(tri) < 2:
+            for i in range(len(tri[-2])):
+                if int(tri[-2][i])+int(int(tri[-1][i])) > int(tri[-2][i])+int(int(tri[-1][i+1])):
+                    tri[-2][i] = int(tri[-2][i]) + int(int(tri[-1][i]))
+                else:
+                    tri[-2][i] = int(tri[-2][i]) + int(int(tri[-1][i+1]))
+            tri.pop(-1)
+        return tri
+
+    def problem_67(self):
+        tri = []
+        with open('problem_67.txt','r') as f:
+            s= f.readline()
+            while s:
+                tri.append(s.replace('\n','').split(' '))
+                s = f.readline()
+        while not len(tri) < 2:
+            for i in range(len(tri[-2])):
+                if int(tri[-2][i])+int(int(tri[-1][i])) > int(tri[-2][i])+int(int(tri[-1][i+1])):
+                    tri[-2][i] = int(tri[-2][i]) + int(int(tri[-1][i]))
+                else:
+                    tri[-2][i] = int(tri[-2][i]) + int(int(tri[-1][i+1]))
+            tri.pop(-1)
+        return tri
+
+    def problem(self):
 
 
 
@@ -285,5 +359,5 @@ def is_palindrome(x):
 if __name__ == '__main__':
     s = Solution()
     t= time.time()
-    print('Answer is: %s'%s.problem_14())
+    print('The answer is: %s'%s.problem())
     print('Time used: %f'%(time.time()-t))
