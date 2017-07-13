@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c6c8fae-d095-458d-a877-4009cacc67bd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project_euler.py" afterPath="$PROJECT_DIR$/project_euler.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,8 +27,8 @@
       <file leaf-file-name="project_euler.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project_euler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="336" column="0" lean-forward="false" selection-start-line="336" selection-start-column="0" selection-end-line="336" selection-end-column="0" />
+            <state relative-caret-position="272">
+              <caret line="361" column="41" lean-forward="false" selection-start-line="361" selection-start-column="41" selection-end-line="361" selection-end-column="41" />
               <folding>
                 <element signature="e#81#201#0" expanded="false" />
                 <element signature="e#236#455#0" expanded="false" />
@@ -48,8 +48,6 @@
                 <element signature="e#9125#10142#0" expanded="false" />
                 <element signature="e#10178#10755#0" expanded="false" />
                 <element signature="e#10791#11368#0" expanded="false" />
-                <element signature="e#11418#11548#0" expanded="false" />
-                <element signature="e#11577#11686#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -98,8 +96,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="593" />
-    <option name="width" value="1664" />
+    <option name="x" value="1358" />
+    <option name="width" value="1190" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -139,7 +137,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -351,13 +349,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="593" y="0" width="1664" height="1047" extended-state="0" />
+    <frame x="1358" y="0" width="1190" height="1047" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18640898" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26460177" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46221247" sideWeight="0.50249374" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46221247" sideWeight="0.29911503" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46221247" sideWeight="0.49750623" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46221247" sideWeight="0.70088494" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33296824" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -444,8 +442,6 @@
             <element signature="e#9125#10142#0" expanded="false" />
             <element signature="e#10178#10755#0" expanded="false" />
             <element signature="e#10791#11368#0" expanded="false" />
-            <element signature="e#11418#11548#0" expanded="false" />
-            <element signature="e#11577#11686#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -482,8 +478,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project_euler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="336" column="0" lean-forward="false" selection-start-line="336" selection-start-column="0" selection-end-line="336" selection-end-column="0" />
+        <state relative-caret-position="272">
+          <caret line="361" column="41" lean-forward="false" selection-start-line="361" selection-start-column="41" selection-end-line="361" selection-end-column="41" />
           <folding>
             <element signature="e#81#201#0" expanded="false" />
             <element signature="e#236#455#0" expanded="false" />
@@ -503,8 +499,6 @@
             <element signature="e#9125#10142#0" expanded="false" />
             <element signature="e#10178#10755#0" expanded="false" />
             <element signature="e#10791#11368#0" expanded="false" />
-            <element signature="e#11418#11548#0" expanded="false" />
-            <element signature="e#11577#11686#0" expanded="false" />
           </folding>
         </state>
       </provider>

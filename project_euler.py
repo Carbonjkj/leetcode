@@ -334,7 +334,7 @@ class Solution(object):
         return tri
 
     def problem(self):
-
+        pass
 
 
 
@@ -359,5 +359,5 @@ def is_palindrome(x):
 if __name__ == '__main__':
     s = Solution()
     t= time.time()
-    print('The answer is: %s'%s.problem())
+    print('The answer is: %s'%s.problem_5())
     print('Time used: %f'%(time.time()-t))
