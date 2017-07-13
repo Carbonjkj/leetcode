@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c6c8fae-d095-458d-a877-4009cacc67bd" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project_euler.py" afterPath="$PROJECT_DIR$/project_euler.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +28,8 @@
       <file leaf-file-name="project_euler.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project_euler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="361" column="41" lean-forward="false" selection-start-line="361" selection-start-column="41" selection-end-line="361" selection-end-column="41" />
+            <state relative-caret-position="-906">
+              <caret line="127" column="25" lean-forward="false" selection-start-line="127" selection-start-column="25" selection-end-line="127" selection-end-column="25" />
               <folding>
                 <element signature="e#81#201#0" expanded="false" />
                 <element signature="e#236#455#0" expanded="false" />
@@ -37,13 +38,12 @@
                 <element signature="e#1127#1566#0" expanded="false" />
                 <element signature="e#1601#1705#0" expanded="false" />
                 <element signature="e#1740#1977#0" expanded="false" />
-                <element signature="e#2012#3689#0" expanded="false" />
                 <element signature="e#3724#3886#0" expanded="false" />
                 <element signature="e#3922#4286#0" expanded="false" />
-                <element signature="e#4322#7342#0" expanded="false" />
                 <element signature="e#7378#7807#0" expanded="false" />
                 <element signature="e#7843#8282#0" expanded="false" />
                 <element signature="e#8318#8699#0" expanded="false" />
+                <element signature="e#8735#9011#0" expanded="false" />
                 <element signature="e#9047#9089#0" expanded="false" />
                 <element signature="e#9125#10142#0" expanded="false" />
                 <element signature="e#10178#10755#0" expanded="false" />
@@ -96,9 +96,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1358" />
-    <option name="width" value="1190" />
-    <option name="height" value="1047" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="2576" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -349,13 +350,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="0" width="1190" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26460177" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11883943" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46221247" sideWeight="0.29911503" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46203905" sideWeight="0.29689986" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46221247" sideWeight="0.70088494" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45770064" sideWeight="0.70310014" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33296824" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -406,7 +407,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -431,13 +432,12 @@
             <element signature="e#1127#1566#0" expanded="false" />
             <element signature="e#1601#1705#0" expanded="false" />
             <element signature="e#1740#1977#0" expanded="false" />
-            <element signature="e#2012#3689#0" expanded="false" />
             <element signature="e#3724#3886#0" expanded="false" />
             <element signature="e#3922#4286#0" expanded="false" />
-            <element signature="e#4322#7342#0" expanded="false" />
             <element signature="e#7378#7807#0" expanded="false" />
             <element signature="e#7843#8282#0" expanded="false" />
             <element signature="e#8318#8699#0" expanded="false" />
+            <element signature="e#8735#9011#0" expanded="false" />
             <element signature="e#9047#9089#0" expanded="false" />
             <element signature="e#9125#10142#0" expanded="false" />
             <element signature="e#10178#10755#0" expanded="false" />
@@ -478,8 +478,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project_euler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="361" column="41" lean-forward="false" selection-start-line="361" selection-start-column="41" selection-end-line="361" selection-end-column="41" />
+        <state relative-caret-position="-906">
+          <caret line="127" column="25" lean-forward="false" selection-start-line="127" selection-start-column="25" selection-end-line="127" selection-end-column="25" />
           <folding>
             <element signature="e#81#201#0" expanded="false" />
             <element signature="e#236#455#0" expanded="false" />
@@ -488,13 +488,12 @@
             <element signature="e#1127#1566#0" expanded="false" />
             <element signature="e#1601#1705#0" expanded="false" />
             <element signature="e#1740#1977#0" expanded="false" />
-            <element signature="e#2012#3689#0" expanded="false" />
             <element signature="e#3724#3886#0" expanded="false" />
             <element signature="e#3922#4286#0" expanded="false" />
-            <element signature="e#4322#7342#0" expanded="false" />
             <element signature="e#7378#7807#0" expanded="false" />
             <element signature="e#7843#8282#0" expanded="false" />
             <element signature="e#8318#8699#0" expanded="false" />
+            <element signature="e#8735#9011#0" expanded="false" />
             <element signature="e#9047#9089#0" expanded="false" />
             <element signature="e#9125#10142#0" expanded="false" />
             <element signature="e#10178#10755#0" expanded="false" />

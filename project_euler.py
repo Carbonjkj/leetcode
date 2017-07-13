@@ -359,5 +359,5 @@ def is_palindrome(x):
 if __name__ == '__main__':
     s = Solution()
     t= time.time()
-    print('The answer is: %s'%s.problem_5())
+    print('The answer is: %s'%s.problem_10())
     print('Time used: %f'%(time.time()-t))
